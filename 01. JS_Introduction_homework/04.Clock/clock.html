@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+</head>
+<body>
+    <h1>The current time is:</h1>
+    <div id="time"></div>
+</body>
+
+<script>
+    timeNow();
+    function timeNow() {
+        var now = new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
+        document.getElementById('time').innerHTML = now;
+        setTimeout(timeNow, 1000);
+    }
+</script>
+</html>
