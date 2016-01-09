@@ -1,0 +1,42 @@
+#wrapper {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+h1 {
+    color: #7C380A;
+    padding-left: 5px;
+}
+
+#wrapper .input,
+#wrapper #output {
+    background-color: #284A6B;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#wrapper .input {
+    border: 1px solid #AACAFE;
+}
+
+#wrapper .button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 20px;
+    margin-left: 95px;
+
+}
+
+.input, #output {
+    color: #FFA127;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+#output {
+padding-top: 5px;
+    font-size: 1.2em;
+}

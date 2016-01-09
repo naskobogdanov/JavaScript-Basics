@@ -1,0 +1,2 @@
+node lifetimeSupplyCalc.js
+pause

@@ -1,0 +1,2 @@
+node calculateKnots.js
+pause
